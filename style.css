@@ -516,29 +516,36 @@ header {
   background: var(--warm-white);
 }
 
-footer {
-  background: var(--primary-orange);
-  padding: 40px 20px;
-  text-align: center;
-  color: var(--warm-white);
-  font-size: 1.1rem;
-  animation: fadeIn 1s ease-out;
-}
-
-footer p {
-  margin: 10px 0;
-  font-weight: 600;
-}
-
 .bottom-nav {
-  background: var(--dark-orange);
-  padding: 20px;
-  text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background:#E86F3C;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 12px 0;
+    z-index: 1000;
+    height: 3rem;
+
+}
+.bottom-nav a {
+    color: #000000;
+    background:#000000;
+    padding: 10px 20px;
+    border-radius: 5px;
+    
+}
+.bottom-nav a:hover {
+    background-color: #d18e56;
+    color: #070707;
+    box-shadow: 0 2px 8px #d18e56;
+    transition: background 0.2s, color 0.2s;
 }
 
 .copyright {
-  color: var(--warm-white);
-  font-size: 0.95rem;
+  color: #000000;
 }
 
 /* Responsive Design */
