@@ -21,11 +21,15 @@ html {
   scroll-behavior: smooth;
   scroll-padding-top: 100px;
 }
-
-body {
-  background: var(--cream);
-  color: var(--text-dark);
-  overflow-x: hidden;
+  body {
+    font-family: Arial, sans-serif;
+    background-image: url("images/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+    padding: 0;
 }
 
 /* Animation Keyframes */
@@ -220,33 +224,32 @@ header {
   max-width: 500px;
 }
 
-/* Section Styling */
 .section {
   padding: 100px 60px;
-  background: var(--cream);
+  background: rgba(0, 0, 0, 0.7);
 }
 
-/* About Section - Slide from Left */
+
 #about {
   animation: slideInLeft 1.2s ease-out;
 }
 
-/* Product Section - Slide from Right */
+
 #product {
   animation: slideInRight 1.2s ease-out;
 }
 
-/* Why Choose Us Section - Slide from Bottom */
+
 #choose {
   animation: slideInBottom 1.2s ease-out;
 }
 
-/* Feedback Section - Pop Up */
+
 #feedback {
   animation: popUp 1s ease-out;
 }
 
-/* Contact Section - Slide from Bottom */
+
 #contact {
   animation: slideInBottom 1.2s ease-out;
 }
@@ -274,7 +277,7 @@ header {
   border-radius: 3px;
 }
 
-/* About Section */
+
 .about-box {
   max-width: 1400px;
   margin: 0 auto;
@@ -302,7 +305,7 @@ header {
   font-weight: 700;
 }
 
-/* Product Grid */
+
 .product-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -371,7 +374,7 @@ header {
   font-weight: 600;
 }
 
-/* Why Choose Us Section */
+
 .choose-box {
   background: linear-gradient(135deg, var(--primary-orange), var(--dark-orange));
   max-width: 1000px;
@@ -459,7 +462,7 @@ header {
   justify-content: center;
 }
 
-/* Feedback Section */
+
 .feedback-box {
   background: var(--warm-white);
   padding: 40px;
@@ -502,7 +505,7 @@ header {
   font-size: 1.1rem;
 }
 
-/* Contact/Footer */
+
 #contact {
   background: linear-gradient(135deg, var(--navy-blue), var(--primary-orange));
   color: var(--warm-white);
@@ -548,7 +551,7 @@ header {
   color: #000000;
 }
 
-/* Responsive Design */
+
 @media (max-width: 768px) {
   header {
     padding: 20px 30px;
