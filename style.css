@@ -23,7 +23,7 @@ html {
 }
   body {
     font-family: Arial, sans-serif;
-    background-image: url("images/bg2.jpg");
+    background-image: url("images/bg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -600,3 +600,4 @@ header {
     font-size: 1.1rem;
   }
 }
+
